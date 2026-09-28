@@ -1,13 +1,55 @@
 """Dados e consultas do catálogo da livraria."""
 
 LIVROS = [
-	{
-		"titulo": "Dom Casmurro",
-		"autor": "Machado de Assis",
-		"preco": 30.0,
-		"disponivel": True,
-		"lojas": {"Loja Centro": True},
-	}
+    {
+        "titulo": "Dom Casmurro",
+        "autor": "Machado de Assis",
+        "preco": 30.0,
+        "disponivel": True,
+        "lojas": {"Loja Centro": True},
+    },
+    {
+        "titulo": "O Cortiço",
+        "autor": "Aluísio Azevedo",
+        "preco": 35.0,
+        "disponivel": True,
+        "lojas": {"Loja Centro": True},
+    },
+    {
+        "titulo": "Memórias Póstumas de Brás Cubas",
+        "autor": "Machado de Assis",
+        "preco": 32.0,
+        "disponivel": True,
+        "lojas": {"Loja Centro": True},
+    },
+    {
+        "titulo": "Grande Sertão: Veredas",
+        "autor": "João Guimarães Rosa",
+        "preco": 45.0,
+        "disponivel": True,
+        "lojas": {"Loja Centro": True},
+    },
+    {
+        "titulo": "Capitães da Areia",
+        "autor": "Jorge Amado",
+        "preco": 38.0,
+        "disponivel": True,
+        "lojas": {"Loja Centro": True},
+    },
+    {
+        "titulo": "A Hora da Estrela",
+        "autor": "Clarice Lispector",
+        "preco": 28.0,
+        "disponivel": True,
+        "lojas": {"Loja Centro": True},
+    },
+    {
+        "titulo": "Vidas Secas",
+        "autor": "Graciliano Ramos",
+        "preco": 34.0,
+        "disponivel": False,
+        "lojas": {"Loja Centro": False},
+    },
 ]
 
 HORARIO_FUNCIONAMENTO = "Não informado."
